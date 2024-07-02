@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 15px;
+    /* justify-content:space-around; */
+}
+.nav-bar ul li {
+    list-style: none;
+display: inline-block;
+padding: 10px 20px;
+padding: 25px;
+
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #000;
+font-size: small;
+}
+.main-car{
+    width:  100%;
+}
+
+    .main-car img{
+         margin:0px 30px 0px 60px ;
+        width: 90%;
+        height: 400px;
+    }
+   .inner-txt{
+    position:absolute;
+    top: 0;
+    margin: 180px 0px 0px 90px;
+background-color:rgba(50,50,50);
+color: white;
+padding: 1%;
+font-size: 48px;
+}
+
+.iner-txt{
+    position:absolute;
+    top: 0;
+    margin: 280px 0px 0px 90px;
+background-color:rgba(50,50,50);
+color:white;
+padding: 1.2%;
+font-size: 48px;
+}
+.down-txt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 400px;
+background:rgba(60,60,60);
+color: white;
+margin: 47px 0px 0px 60px;
+padding: 20px;
+font-size: small;
+}
+.under-car{
+    background-color:aliceblue;
+    font-size: 20px;
+margin :20px 0px 0px 40px ;
+}
+.under-car span{
+    margin-left: 90px;
+}
+.p-c{
+font-size: xx-large;
+margin: 100px 0px 0px 50px;
+}
+.secndbr{
+    margin: 5%;
+display: flex;
+justify-content:space-between;
+}
+.secndbr .item{
+    border: 1px solid none;
+    padding: 1.5%;
+border-radius: 25px ;
+ background-color:lightgrey ;
+ font-weight: bold;
+}
+.secndbr .item:hover{
+    background-color: #000;
+    color: white;
+}
+.mainline-1{
+    border: 2px solid none;
+    display:flex;
+    justify-content:space-evenly;
+    max-width: 100%;
+}
+#line-1itm{
+    border: 2px solid white;
+    padding: 20px;
+    transition: all 4s;
+height: 10%;
+width: 300px;
+box-shadow: 2px 5px 10px gray;
+}
+#line-1itm:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px gray;
+    text-decoration: underline;
+}
+.car1{
+font-size: large;
+box-shadow: 2px 5px 10px gray;
+/* height: 40%; */
+width: 20px;
+
+}
+.mainline-1  .car1 span{
+    font-size: xx-large;
+}
+.car1 p{
+    margin-top: 50px;
+    padding: 1px;
+    }
+
+
+.mainline-2{
+    border: 2px solid none;
+    display:flex;
+    justify-content:space-between;
+    max-width: 100%;
+}
+#line-2item{
+    border: 2px solid white;
+    padding: 20px;
+    transition: all 4s;
+height: 10%;
+width: 300px;
+box-shadow: 2px 5px 10px gray;
+
+}
+#line-2item:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px gray;
+    text-decoration: underline;
+}
+.cer5 span{
+border: 2px solid purple;
+margin-top: 0px;
+position: absolute;
+}
+.cer5:hover{
+ text-decoration: underline;   
+}
+.under-cer p{
+    font-size: 40px;
+    font-weight: bold;
+    margin:60px 0px 0px 50px ;
+}
+.under-cer span{
+    font-size: larger;
+    margin: 50px  0px 0px 50px;
+    font-weight: bold;
+}
+.add-card{
+margin: 40px 0px 0px 50px;
+}
+.add-card span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.graphimg{
+    margin-top: 40px;
+    width: 40%;
+float:right;
+}
+
+button {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 50px 0px 0px 150px; 
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 25px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
+
+   .under-button{
+margin: 30px 0px 0px 100px;
+   }
+   .under-button a{
+    font-weight: bold;
+   }
+   .sellcar{
+    font-weight: bold;
+    font-size:40px;
+margin: 50px 0px 0px 50px;    
+   }
+   .laptop-br{
+    display: flex;
+}
+.laptop-br .atom1{
+    width: 35%;
+    margin:10px 0px 0px 50px;
+}
+.atom2{
+    margin:30px 0px 0px -50px;
+}
+    .atom3{
+width: 35%;
+margin: 10px 0px 0px 50px;
+    }
+    .atom4{
+        margin:30px 0px 0px -50px ;
+    }
+    .atom5{
+        margin: 5px 0px 0px 800px;
+        width: 30%;
+        float:right;
+position: absolute;
+    }
+    .man-lap{
+        margin: 25% 0px 0px 0px;
+width: 28%;
+float: right;
+    }
+    #under-cop{
+        margin: 15% 0px 0px 0px;
+    }
+#under-cop h1{
+margin: 2% 0px 0px 5% ;
+}
+#under-cop p{
+    margin: 1% 0px 0px 5%;
+}
+#under-cop h4{
+text-decoration: underline;
+margin: 2% 0px 0px 5% ;
+}
+#under-cop h2{
+margin: 1% 0px 0px 4.55% ;
+    font-size: xx-large;
+}
+    ul{
+        margin:3% 0px 0px 5% ;
+        text-decoration:underline;
+        font-weight: bolder;
+        font-size:large;
+    }     
+
+h3{
+    text-decoration: underline;
+    margin: 5% 0px 0px 5%;
+}
+h1{
+    margin: 3% 0px 0px 5%;
+    font-size: 35px;
+}
+
+.under-news{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+#fir-news{
+    width: 50%;
+    /* justify-content: space-between; */
+}
+.lexus{
+    margin: 0px 0px 0px 10px;
+}
+.bmw-txt{
+    position: absolute;
+margin:30% 550px 0px 0px;
+color: white;
+font-size: 23px;
+}
+.lexus-txt{
+    position: absolute;
+    color: white;
+    margin:27.6% 0px 0px 550px;
+font-size: 23px;
+
+}
+.under-nws{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#sec-nws{
+    width: 50%;
+}
+.mazda{
+    margin: 0px 0px 0px 10px;   
+}
+.purple-txt{
+    position: absolute;
+margin:29.5% 70% 0px 0px;
+color: white;
+font-size:23px;
+}
+.mazda-txt{
+    position: absolute;
+    color: white;
+    margin:27.6% 0px 0px 555px;
+    font-size: 22px;
+}
+.sell-all a{
+    color: black;
+    font-size: large;
+    margin-left: 20px;
+}
+#fot-brone{
+display: flex;
+/* justify-content: space-around; */
+}
+
+.Finance-sellcar{
+    margin: 40px 0px 0px 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:15px;
+}
+.explore-brnd{
+    margin: 40px 0px 0px 100px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:15px;
+}
+.company{
+    margin: -380px 0px 0px 350px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:15px;      
+}
+.mob{
+    margin: -350px 0px 0px 100px ;
+    font-weight: bold;
+    float: right;
+}
+.app-img{
+    float: right;
+    margin: -300px 0px 0px 580px ;
+width: 12%;
+position: absolute;
+}
+.gog-img{
+    float: right;
+    margin: -300px 0px 0px 750px ;
+    position: absolute;
+width: 13%;
+}
+.contact{
+    margin: -200px 0px 0px 750px;
+    font-weight: bold;
+}
